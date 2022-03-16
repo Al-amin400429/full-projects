@@ -1,0 +1,19 @@
+.nav{
+    border-bottom: 1px solid #ccc;
+    padding: 25px 0;
+
+    ul{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            a {
+                color:$colorBlack;
+                font-weight: 300;
+                font-size: 14px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

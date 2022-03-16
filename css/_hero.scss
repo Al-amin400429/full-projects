@@ -1,0 +1,77 @@
+#hero {
+   
+    width:100%;
+    position:relative;
+    padding: 70px 0;
+    .row {
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .col{
+            flex-basis: 50%;
+            .hero-img {
+                width:100%;
+                background: url(../img/hero1.webp) no-repeat center;
+                height:400px;
+                background-size: cover;
+            }
+            .content {
+            background: $bg-color;
+              height: 100%;
+              padding:60px 50px;
+              h4{
+                  color: $colorLight;
+                  letter-spacing: 1px;
+                  font-weight: 300;
+              }
+              h2{
+                  color:$colorBlack;
+                  font-weight: 500;
+                  margin: 7px 0;
+              }
+              p{
+                  color:$colorLight;
+                  line-height: 25px;
+                  font-weight: 300;
+
+              }
+              .bottom-content{
+                  margin: 20px 0;
+                  span{
+                      color: $colorBlack;
+                      font-size: 14px;
+                      font-weight: 500;
+                      small{
+                          color: $colorLight;
+                      }
+                  }
+                  .date{
+                      margin: 5x 0;
+                      display: flex;
+                      align-items: center;
+                      span{
+                          color:$colorLight;
+                          display: inline-block;
+                          font-size: 12px;
+                          .dot{
+                            width: 4px;
+                            height: 4px;
+                            background:$colorLight;
+                            display: inline-block;
+                            border-radius: 50%;
+                            margin: 0 3px;
+                            margin-bottom:3px;
+                          }
+                          .fa {
+                              font-size: 12px;
+                              margin-left: 3px;
+                          }
+                      }
+                  }
+              }
+            }
+        }
+    }
+}
